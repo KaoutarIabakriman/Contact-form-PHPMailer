@@ -18,5 +18,7 @@ Building on the basics, I extended the functionality to include:
 ## Technical Highlights:🛠
 
 -Utilized PHPMailer to handle SMTP configurations and ensure secure email transmission.
+<br>
 -Implemented error handling to manage failed email attempts gracefully.
+<br>
 -Enhanced the user experience by integrating responsive design elements in the contact form.
