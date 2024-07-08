@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="sign">
+                <form action="login.php" class="sign-in" method="post">
+                   <h2 class="title">Sign in</h2>
+                   <div class="content">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username" name="username" required>
+                   </div>
+                   <div class="content">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" name="password" required>
+                   </div>
+                    <input type="submit" value="Login" class="button solid" name="login">
+                    <a href="forgot_password.html" class="pass">Forgotten password?</a>
+                    <p class="txt">Or Sign in with :</p>
+                    <div class="social-media">
+                      <a href="https://www.facebook.com/" class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="https://x.com/" class="icon">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="https://www.google.com/" class="icon">
+                        <i class="fab fa-google"></i>
+                      </a>
+                      <a href="https://www.instagram.com/" class="icon">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+
+                </form>
+                <form action="register.php" class="sign-up" method="post">
+                  <h2 class="title">Sign up</h2>
+                    <div class="content">
+                     <i class="fas fa-user"></i>
+                     <input type="text" placeholder="Username" name="username" required>
+                    </div>
+                    <div class="content">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Name@email.com" name="email" required>
+                       </div>
+                    <div class="content">
+                     <i class="fas fa-lock"></i>
+                     <input type="password" placeholder="Password" name="password" required>
+                    </div>
+                     <input type="submit" value="Register" class="button" name="register">
+                     <p class="txt">Or Sign up with :</p>
+                     <div class="social-media">
+                         <a href="https://www.facebook.com/" class="icon">
+                             <i class="fab fa-facebook-f"></i>
+                           </a>
+                           <a href="https://x.com/" class="icon">
+                             <i class="fab fa-twitter"></i>
+                           </a>
+                           <a href="https://www.google.com/" class="icon">
+                             <i class="fab fa-google"></i>
+                           </a>
+                           <a href="https://www.instagram.com/" class="icon">
+                             <i class="fab fa-instagram"></i>
+                           </a>
+                     </div>
+                 </form>
+            </div>
+        </div>
+
+        <div class="panels">
+          <div class="panel panel-left">
+            <div class="context">
+              <h3>Are you new ?</h3>
+              <p>If you are new here, please register to create an account.</p>
+                <button class="button transparent" id="sign-up-btn">Sign up</button>
+            </div>
+            <img src="images/chatting.svg" class="image">
+          </div>
+          <div class="panel panel-right">
+            <div class="context">
+              <h3>Are you a member ?</h3>
+              <p>If you already have an account, please log in.</p>
+                <button class="button transparent" id="sign-in-btn">Sign in</button>
+            </div>
+            <img src="images/chat.svg" class="image">
+          </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
