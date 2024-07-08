@@ -7,7 +7,7 @@ Using PHPMailer, I was able to configure my localhost environment to send emails
 I started with a basic contact form to test the email functionality. This form successfully sends messages, proving the effectiveness of PHPMailer in handling form submissions.
 
 ## Advanced Use Cases:
-### Building on the basics, I extended the functionality to include:
+ Building on the basics, I extended the functionality to include:
 
 -Password Reset Emails: Implemented a secure and reliable password reset system.
 -Message Sending: Enabled users to send messages via the platform effortlessly.
