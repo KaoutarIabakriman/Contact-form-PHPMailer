@@ -10,7 +10,9 @@ I started with a basic contact form to test the email functionality. This form s
  Building on the basics, I extended the functionality to include:
 
 -Password Reset Emails: Implemented a secure and reliable password reset system.
+<br>
 -Message Sending: Enabled users to send messages via the platform effortlessly.
+<br>
 -Contact History Storage: Developed a feature to store contact form submissions and display them on the homepage, providing valuable insights and tracking.
 ## Technical Highlights:
 
