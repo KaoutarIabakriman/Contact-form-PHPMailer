@@ -22,12 +22,12 @@
         $mail->isSMTP();                                            
         $mail->Host       = 'smtp.gmail.com';                    
         $mail->SMTPAuth   = true;                                   
-        $mail->Username   = 'helloitsmekoki@gmail.com';                     
-        $mail->Password   = 'keio icno qnrj ryhy';                             
+        $mail->Username   = 'your email';                     
+        $mail->Password   = 'your account password';                             
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
         $mail->Port       = 587;                                
        
-        $mail->setFrom('helloitsmekoki@gmail.com', 'Admin');
+        $mail->setFrom('your email', 'Admin');
         $mail->addAddress($email);     // Add a recipient
 
         $code = substr(str_shuffle('1234567890QWERTYUIOPASDFGHJKLZXCVBNM'),0,10);
